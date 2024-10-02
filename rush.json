@@ -2,7 +2,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
 
-
   "rushVersion": "5.136.1",
 
 
@@ -51,17 +50,29 @@
     {
       "packageName": "@fewo-monorepo/entities",
       "projectFolder": "src/entities",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "decoupledLocalDependencies": [
+        "@fewo-monorepo/utils",
+        "@fewo-monorepo/inversify"
+      ]
     },
     {
       "packageName": "@fewo-monorepo/inversify",
       "projectFolder": "src/inversify",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "decoupledLocalDependencies": [
+        "@fewo-monorepo/entities",
+        "@fewo-monorepo/utils"
+      ]
     },
     {
       "packageName": "@fewo-monorepo/utils",
       "projectFolder": "src/utils",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "decoupledLocalDependencies": [
+        "@fewo-monorepo/entities",
+        "@fewo-monorepo/inversify"
+      ]
     },
     {
       "packageName": "@fewo-monorepo/wrapper",

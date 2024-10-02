@@ -31,12 +31,6 @@ importers:
 
   ../../src/entities:
     dependencies:
-      '@fewo-monorepo/inversify':
-        specifier: workspace:*
-        version: link:../inversify
-      '@fewo-monorepo/utils':
-        specifier: workspace:*
-        version: link:../utils
       inversify:
         specifier: ~6.0.2
         version: 6.0.2
@@ -52,12 +46,6 @@ importers:
 
   ../../src/inversify:
     dependencies:
-      '@fewo-monorepo/entities':
-        specifier: workspace:*
-        version: link:../entities
-      '@fewo-monorepo/utils':
-        specifier: workspace:*
-        version: link:../utils
       inversify:
         specifier: ~6.0.2
         version: 6.0.2
@@ -73,12 +61,6 @@ importers:
 
   ../../src/utils:
     dependencies:
-      '@fewo-monorepo/entities':
-        specifier: workspace:*
-        version: link:../entities
-      '@fewo-monorepo/inversify':
-        specifier: workspace:*
-        version: link:../inversify
       '@fewo-monorepo/wrapper':
         specifier: workspace:*
         version: link:../wrapper
