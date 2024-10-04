@@ -50,29 +50,17 @@
     {
       "packageName": "@fewo-monorepo/entities",
       "projectFolder": "src/entities",
-      "reviewCategory": "production",
-      "decoupledLocalDependencies": [
-        "@fewo-monorepo/utils",
-        "@fewo-monorepo/inversify"
-      ]
+      "reviewCategory": "production"
     },
     {
       "packageName": "@fewo-monorepo/inversify",
       "projectFolder": "src/inversify",
-      "reviewCategory": "production",
-      "decoupledLocalDependencies": [
-        "@fewo-monorepo/entities",
-        "@fewo-monorepo/utils"
-      ]
+      "reviewCategory": "production"
     },
     {
       "packageName": "@fewo-monorepo/utils",
       "projectFolder": "src/utils",
-      "reviewCategory": "production",
-      "decoupledLocalDependencies": [
-        "@fewo-monorepo/entities",
-        "@fewo-monorepo/inversify"
-      ]
+      "reviewCategory": "production"
     },
     {
       "packageName": "@fewo-monorepo/wrapper",

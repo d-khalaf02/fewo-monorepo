@@ -1,0 +1,15 @@
+[submodule "fewo-monorepo/application"]
+    path = src/Application
+    url = https://github.com/d-khalaf02/application.git
+[submodule "fewo-monorepo/entities"]
+     path = src/entities
+     url = https://github.com/d-khalaf02/entities.git
+[submodule "fewo-monorepo/inversify"]
+     path = src/inversify
+     url = https://github.com/d-khalaf02/inversify.git
+[submodule "fewo-monorepo/utils"]
+     path = src/utils
+     url = https://github.com/d-khalaf02/utils.git
+[submodule "fewo-monorepo/wrapper"]
+     path = src/wrapper
+     url = https://github.com/d-khalaf02/wrapper.git
