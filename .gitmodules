@@ -4,9 +4,6 @@
 [submodule "fewo-monorepo/entities"]
      path = src/entities
      url = https://github.com/d-khalaf02/entities.git
-[submodule "fewo-monorepo/inversify"]
-     path = src/inversify
-     url = https://github.com/d-khalaf02/inversify.git
 [submodule "fewo-monorepo/utils"]
      path = src/utils
      url = https://github.com/d-khalaf02/utils.git

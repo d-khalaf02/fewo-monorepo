@@ -53,11 +53,6 @@
       "reviewCategory": "production"
     },
     {
-      "packageName": "@fewo-monorepo/inversify",
-      "projectFolder": "src/inversify",
-      "reviewCategory": "production"
-    },
-    {
       "packageName": "@fewo-monorepo/utils",
       "projectFolder": "src/utils",
       "reviewCategory": "production"
